@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.boy{
+			background-color: aqua;
+			width: 300px;
+			height: 680px;
+		}
+		.boy button{
+			margin-top: 5px;
+			font-size: 20px;
+			border-radius: 14px;
+			background-color: silver;
+			padding: 10px;
+		}
+		
+		
+		.boy button li:hover{
+			background-color:pink;
+			transition:0.9s;
+		}
+		.boy ul button li{
+			padding-bottom: 20px;
+			font-size: 20px;
+			border-bottom: 1px solid black;
+			color: white;
+			padding-top: 20px;
+			cursor: pointer;
+			width: 200px;
+			list-style: none;
+			background-color: black;
+			min-height: 100%;
+		}
+		
+	</style>
+</head>
+<body>
+<div class="boy">
+		<ul>
+			<form action="aluprofile.php" method="POST">
+				
+				<button name="cs"><li><i class="fa fa-user"></i>&nbsp;<a href="aluprofile.php" style="text-decoration: none; color: white;">MY PROFILE</a> </li></button>
+				<button name="mu"><li><i class="fa fa-user-friends"></i>&nbsp;<a style="text-decoration: none;color: white;" href="otheralumn.php">OTHER ALUMNS PROFILE</a></li></button>
+			</form>
+		</ul>	
+	</div>
+	
+</body>
+</html>
